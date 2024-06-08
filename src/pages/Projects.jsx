@@ -99,7 +99,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="mx-20">
+    <section className="xl:mx-20 sm:mx-10 mx-5">
       <div className="mt-10">
         <p className="textColor text-5xl">Our</p>
         <p className="text-5xl font-bold">Projects</p>
@@ -110,10 +110,10 @@ const Projects = () => {
       <div className="flex flex-col gap-16 mb-10">
         {projects.map((project, index) => {
           return (
-            <div key={index} className="bg-gray-50 flex gap-4">
-              <img src={project.img} alt="" className="h-96" />
-              <div className="w-1/2 m-5">
-                <h1 className="textColor text-5xl mt-5 mb-20 capitalize">{project.title}</h1>
+            <div key={index} className="bg-gray-50 lg:flex gap-4">
+              <img src={project.img} alt="" className="lg:w-1/2 w-full" />
+              <div className="lg:w-1/2 m-5">
+                <h1 className="textColor text-5xl lg:mt-5 mt-10 xl:mb-20 mb-10 capitalize">{project.title}</h1>
                 <p>{project.details}</p>
                 <button className="flex gap-3 items-center bg-white text-xs pl-9 py-4 pr-10 mt-12 uppercase">
                   view more

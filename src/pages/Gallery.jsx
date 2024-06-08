@@ -71,7 +71,7 @@ const images = [
 
 const Gallery = () => {
   return (
-    <section className="mx-20 mb-20">
+    <section className="xl:mx-20 sm:mx-10 mx-5 mb-20">
       <div className="mt-10">
         <p className="textColor text-5xl">Photo</p>
         <p className="text-5xl font-bold">Gallery</p>
@@ -79,7 +79,7 @@ const Gallery = () => {
 
       <hr className="my-5" />
 
-      <div className="grid grid-cols-5 gap-3 mb-10">
+      <div className="grid md:grid-cols-5 grid-cols-2 gap-3 mb-10">
         {images.map((image, index) => {
           return <img key={index} src={image} alt="" />;
         })}

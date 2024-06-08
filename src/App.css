@@ -4,7 +4,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-.container{
+.container {
   margin: 0px 80px;
 }
 
@@ -25,13 +25,22 @@
   line-height: 100px;
 }
 
-.contactForm input, textarea{
+.contactForm input,
+textarea {
   background-color: #f3f3f3;
   color: #bdbdbd;
   padding: 10px 20px;
   width: 400px;
 }
 
-.footerColor{
-  color: #C8C8C880;
+
+@media (max-width: 1024px) {
+  .contactForm input,
+  textarea {
+    width: 100%;
+  }
+}
+
+.footerColor {
+  color: #c8c8c880;
 }

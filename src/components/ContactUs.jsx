@@ -46,11 +46,11 @@ const ContactUs = () => {
   return (
     <section className="mb-20 w-full">
       <h1 className="textColor text-5xl">Contact Us</h1>
-      <div className="flex gap-5 mt-5 mb-16">
+      <div className="lg:flex gap-5 mt-5 mb-16">
         <form
           action=""
           method="post"
-          className="contactForm flex flex-col gap-3"
+          className="contactForm flex flex-col gap-3 lg:w-full"
         >
           <input type="text" name="name" placeholder="Name" />
           <input
@@ -64,12 +64,17 @@ const ContactUs = () => {
           <textarea
             name="message"
             placeholder="Message"
-            rows={6}
-            className="pl-5 pt-3"
+            rows={5}
+            className="pl-5 pt-3 bg-gray-50"
             required
           />
         </form>
-        <img src={"src/assets/rectangle 9.png"} alt="" style={{ width: '940px', height: '380px' }} />
+        <img
+          src={"src/assets/rectangle 9.png"}
+          alt=""
+          className="lg:block hidden"
+          style={{ width: "940px", height: "375px" }}
+        />
       </div>
       <button className="text-sm uppercase flex gap-3 items-center text-white bg-black p-5 px-10">
         send email

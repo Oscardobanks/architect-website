@@ -27,7 +27,7 @@ import ContactUs from "../components/ContactUs";
 
 const LandingPage = () => {
   return (
-    <div className="mx-20">
+    <div className="xl:mx-20 sm:mx-10 mx-5">
       <ProjectLorum />
       <About />
       <MainFocus />

@@ -80,9 +80,9 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-black">
-      <div className="flex gap-20 py-10 px-20 items-start text-white">
+      <div className="flex md:flex-row flex-col lg:gap-20 gap-10 py-10 xl:mx-20 sm:mx-10 mx-5 items-start text-white">
         <img src={"src/assets/logo white.svg"} alt="" />
-        <div className="flex flex-col gap-4 ml-10 capitalize">
+        <div className="flex flex-col gap-4 xl:ml-10 capitalize">
           <h1 className="font-bold">Information</h1>
           <a href="/">main</a>
           <a href="/gallery">gallery</a>
@@ -91,25 +91,25 @@ const Footer = () => {
           <a href="">contacts</a>
         </div>
 
-        <div className="ml-20">
+        <div className="xl:ml-20">
           <h1 className="font-bold">Contacts</h1>
           <div className="flex gap-3 mt-4">
             <BiMap />
             <span className="w-40">1234 Sample Street Austin Texas 78704</span>
           </div>
-          <div className="flex gap-3 mt-12">
+          <div className="flex gap-3 lg:mt-12 mt-8">
             <FiPhone />
             <span>512.333.2222</span>
           </div>
-          <div className="flex gap-3 mt-10">
+          <div className="flex gap-3 lg:mt-10 mt-5">
             <AiOutlineMail />
             <span>sampleemail@gmail.com</span>
           </div>
         </div>
 
-        <div className="ml-32">
+        <div className="xl:ml-32">
           <h1 className="font-bold">Social Media</h1>
-          <div className="flex gap-10 mt-4">
+          <div className="flex lg:gap-10 gap-5 mt-4">
             <a href="">
               <FaFacebookF />
             </a>

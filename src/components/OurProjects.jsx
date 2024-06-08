@@ -53,24 +53,26 @@ const OurProjects = () => {
           <img
             src={"src/assets/rectangle 6.png"}
             alt=""
-            className="w-64 h-60"
+            className="lg:w-64 w-1/5 lg:h-60 md:h-40 h-20"
           />
           <img
             src={"src/assets/rectangle 7.png"}
             alt=""
-            className="w-1/2 h-60"
+            className="w-1/2 lg:h-60 md:h-40 h-20"
           />
           <img
             src={"src/assets/rectangle 8.png"}
             alt=""
-            className="w-1/3 h-60"
+            className="w-1/4 lg:h-60 md:h-40 h-20"
           />
         </div>
       </div>
-      <button className="uppercase flex gap-3 items-center text-sm bg-black text-white p-4 mt-4 w-fit float-end">
-        all Projects
-        <FiArrowRight />
-      </button>
+      <a href="/projects">
+        <button className="uppercase flex gap-3 items-center text-sm bg-black text-white md:p-4 p-3 mt-4 w-fit float-end">
+          all Projects
+          <FiArrowRight />
+        </button>
+      </a>
     </section>
   );
 };
