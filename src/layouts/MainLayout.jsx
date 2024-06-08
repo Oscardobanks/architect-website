@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Outlet } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -13,3 +14,20 @@ const MainLayout = () => {
 };
 
 export default MainLayout;
+=======
+import { Outlet } from "react-router-dom";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+
+const MainLayout = () => {
+  return (
+    <>
+      <Navbar />
+      <Outlet />
+      <Footer />
+    </>
+  );
+};
+
+export default MainLayout;
+>>>>>>> dc41317 (first commit)
