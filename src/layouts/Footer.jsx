@@ -8,11 +8,13 @@ import {
   FaPinterestP,
 } from "react-icons/fa";
 
+import logo_white from "../assets/images"
+
 const Footer = () => {
   return (
     <footer className="bg-black">
       <div className="flex md:flex-row flex-col lg:gap-20 gap-10 py-10 xl:mx-20 sm:mx-10 mx-5 items-start text-white">
-        <img src={"src/assets/logo white.svg"} alt="" />
+        <img src={logo_white} alt="logo_white" />
         <div className="flex flex-col gap-4 xl:ml-10 capitalize">
           <h1 className="font-bold">Information</h1>
           <a href="/">main</a>

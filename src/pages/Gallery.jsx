@@ -1,16 +1,28 @@
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
+import {
+  gallery1,
+  gallery2,
+  gallery3,
+  gallery4,
+  gallery5,
+  gallery6,
+  gallery7,
+  gallery8,
+  gallery9,
+  gallery10,
+} from "../assets/images";
 
 const images = [
-  "src/assets/gallery/rectangle 1.jpg",
-  "src/assets/gallery/rectangle 2.png",
-  "src/assets/gallery/rectangle 3.png",
-  "src/assets/gallery/rectangle 4.png",
-  "src/assets/gallery/rectangle 5.png",
-  "src/assets/gallery/rectangle 6.png",
-  "src/assets/gallery/rectangle 7.png",
-  "src/assets/gallery/rectangle 8.png",
-  "src/assets/gallery/rectangle 9.png",
-  "src/assets/gallery/rectangle 10.jpg",
+  gallery1,
+  gallery2,
+  gallery3,
+  gallery4,
+  gallery5,
+  gallery6,
+  gallery7,
+  gallery8,
+  gallery9,
+  gallery10,
 ];
 
 const Gallery = () => {

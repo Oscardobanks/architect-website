@@ -1,4 +1,9 @@
 import { FiArrowRight } from "react-icons/fi";
+import {
+  rectangle1,
+  rectangle2,
+  rectangle3,
+} from "../assets/images";
 
 const About = () => {
   return (
@@ -6,19 +11,19 @@ const About = () => {
       <div className="flex gap-4 lg:pl-10 pl-5">
         <div>
           <img
-            src={"src/assets/rectangle 1.jpeg"}
-            alt=""
+            src={rectangle1}
+            alt="about img1"
             className="w-52 lg:h-52 md:h-60"
           />
           <img
-            src={"src/assets/rectangle 2.jpeg"}
-            alt=""
+            src={rectangle2}
+            alt="about img2"
             className="xl:w-52 lg:w-48 lg:h-32 md:h-36 lg:absolute mt-4"
           />
         </div>
         <img
-          src={"src/assets/rectangle 3.jpeg"}
-          alt=""
+          src={rectangle3}
+          alt="about img3"
           className="w-52 lg:h-64 md:h-80 md:mt-10"
         />
       </div>

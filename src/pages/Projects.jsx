@@ -1,20 +1,21 @@
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
+import { projects1, projects2, projects3 } from "../assets/images";
 
 const projects = [
   {
-    img: "src/assets/projects/rectangle 1.png",
+    img: projects1,
     title: "Sample project",
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
-    img: "src/assets/projects/rectangle 2.png",
+    img: projects2,
     title: "sample project 2",
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
-    img: "src/assets/projects/rectangle 3.png",
+    img: projects3,
     title: "sample project 3",
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",

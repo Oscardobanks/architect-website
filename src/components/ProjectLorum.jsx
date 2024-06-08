@@ -1,4 +1,5 @@
 import { FiArrowRight, FiArrowLeft } from "react-icons/fi";
+import rectangle from "../assets/images";
 
 const ProjectLorum = () => {
   return (
@@ -27,7 +28,7 @@ const ProjectLorum = () => {
       </div>
 
       <div>
-        <img src={"src/assets/rectangle.png"} alt="" />
+        <img src={rectangle} alt="" />
         <a href="/projects">
           <button className="flex gap-3 uppercase items-center p-5 pr-16 absolute lg:-mt-16 -mt-14 z-10 bg-white">
             View Project

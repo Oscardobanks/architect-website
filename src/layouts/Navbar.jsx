@@ -1,12 +1,13 @@
 "use client";
 import { Navbar } from "flowbite-react";
+import logo from "../assets/images"
 
 const NavigationBar = () => {
   return (
     <Navbar className="xl:flex xl:py-6 sm:px-0 xl:mx-20 sm:mx-10 mx-5 justify-between xl:me-48 uppercase">
       <Navbar.Brand>
         <a href="/">
-          <img src={"src/assets/logo.svg"} alt="" />
+          <img src={logo} alt="logo" />
         </a>
       </Navbar.Brand>
       <Navbar.Toggle />

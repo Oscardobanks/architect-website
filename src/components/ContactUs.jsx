@@ -1,4 +1,5 @@
 import { FiArrowRight } from "react-icons/fi";
+import rectangle9 from "../assets/images";
 
 const ContactUs = () => {
   return (
@@ -28,8 +29,8 @@ const ContactUs = () => {
           />
         </form>
         <img
-          src={"src/assets/rectangle 9.png"}
-          alt=""
+          src={rectangle9}
+          alt="contact img"
           className="lg:block hidden"
           style={{ width: "940px", height: "375px" }}
         />
