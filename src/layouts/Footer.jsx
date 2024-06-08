@@ -7,8 +7,7 @@ import {
   FaLinkedinIn,
   FaPinterestP,
 } from "react-icons/fa";
-
-import logo_white from "../assets/images"
+import {logo_white} from "../assets/images"
 
 const Footer = () => {
   return (

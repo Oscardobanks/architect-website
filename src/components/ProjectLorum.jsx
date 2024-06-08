@@ -1,5 +1,5 @@
 import { FiArrowRight, FiArrowLeft } from "react-icons/fi";
-import rectangle from "../assets/images";
+import {rectangle} from "../assets/images";
 
 const ProjectLorum = () => {
   return (

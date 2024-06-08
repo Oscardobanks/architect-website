@@ -1,6 +1,6 @@
 "use client";
 import { Navbar } from "flowbite-react";
-import logo from "../assets/images"
+import {logo} from "../assets/images"
 
 const NavigationBar = () => {
   return (

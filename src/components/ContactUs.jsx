@@ -1,5 +1,5 @@
 import { FiArrowRight } from "react-icons/fi";
-import rectangle9 from "../assets/images";
+import {rectangle9} from "../assets/images";
 
 const ContactUs = () => {
   return (
